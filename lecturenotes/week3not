@@ -1,0 +1,11 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Week 3 Notes</tittle>
+    <head>
+    <body>
+        <h1>Links, Attributes, Images and Embdedding<h1>
+        <h2> Links<h2>
+        <a> href="htttp://www.goggle.com">This is a Link to Google.</a>
+        <a> href="wwww.google.com">This is a BAD Link to Google.</a>
