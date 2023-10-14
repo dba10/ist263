@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5/title>
+    <style>
+        h1{color: hotpink;}
+        body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+        p a{text-decoration:none;}
+        #secondpara {color:blueviolet;}
+        .yellow {color:yellow;}
+        p {
+            font-size: 2em;
+            font-weight: bolder;
+            background-color:green
+
+         }
+        </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<p><ol>
+    <li>Djelika</li>
+    <li>New York</li>
+    <li>Syracuse</li>
+</ol></p>
+    
+</body>
+</html>
