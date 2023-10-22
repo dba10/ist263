@@ -1,0 +1,26 @@
+body {background-color:#2600ff;
+    color: #ff0095;}
+
+a {color:#0000ff;}
+a:hover {color:#ffffff;}
+
+h1 {background-color: #ffa500;
+    color:#ffffff;}
+nav {background-color: #ffa500;
+    padding: 10px; 
+    margin-bottom: 30px;}
+nav a {color:#ffffff;}
+nav a:hover {background-color: #708090;}
+.p1 {float: left;}
+.p2 {float: right;}
+
+.r1, .r2 {display: flex;}
+.r2 div {flex: 1;}
+.r1, .r2{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 40px;
+    margin-left: 2em;
+    margin-right: 2em;}
+.c1, .c2 {flex: 0.2;}
+.r1 section {margin-top: 4em;}
