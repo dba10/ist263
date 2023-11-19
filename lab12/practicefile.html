@@ -5,26 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 12</title>
-    <link rel="stylesheet" href="./practicefile_files/animate2.css">
+    <link rel="stylesheet" href="./practicefile_files/animate.css">
 </head>
 
 <head>
     <script>
+        
         function WinnerMessage () {
-            document.getElementByID("messages").innerHTML = 'You Won!';
+            document.getElementById("messages").innerHTML = ('You Won!');
         }
+
         function TryAgain () {
-            document.getElemenetByID("messages").innerHTML = 'Wrong Shell- Try Again!';
+            document.getElementById("messages").innerHTML = ('Wrong Shell - Try Again');
         }
+
+        function ShuffleShells () {
+            document.getElementById("first").style.order = Math.floor ((Math.random() * 3) + 2);
+        }
+
     </script>
 
+<style>
+    .container{
+            display: flex;
+        }
 
+        #first{order: 1;}
+        #second{order: 2;}
+        #third{order: 3;}
+
+    </style>
 </head>
-<body>
+
+<body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
-    <img src="./practicefile_files/walnut.png" alt="first walnut" class="first" onclick="WinnerMessage();">
-    <img src="./practicefile_files/walnut.png" alt="second walnut" class="second" onclick="TryAgain();">
-    <img src="./practicefile_files/walnut.png" alt="third walnut" class="third" onclick="TryAgain();">
+    <div class="container">
+    <img src="./practicefile_files/walnut.png" id="first" alt="first walnut" class="first" onclick="WinnerMessage();">
+    <img src="./practicefile_files/walnut.png" id= "second" alt="second walnut" class="second" onclick="TryAgain();">
+    <img src="./practicefile_files/walnut.png" id= "third" alt="third walnut" class="third" onclick="TryAgain();">
+    </div>
 
     <div id="messages"></div>
 
