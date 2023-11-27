@@ -1,0 +1,9 @@
+body {background-color:#ffffff;
+    color: #002fff;}
+
+a {color:#3700ff;}
+a:hover {color:#ffffff;}
+mg {
+    display: block;
+    margin: auto;
+  }
