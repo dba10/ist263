@@ -91,19 +91,25 @@
             font-size: 30px;
         }
 
-        /* Add styles for the container */
+        
         .container {
             text-align: left;
             margin: 20px;
         }
 
-        /* Add styles for the paragraph inside the container */
+
         .container p {
             font-size: 16px;
             line-height: 1.5;
             color: #ffffff;
             margin-right: 20px; 
         }
+        .highlighted-text {
+    background-color: rgb(0, 0, 0); 
+    padding: 10px; 
+}
+
+    
     </style>
 </head>
 <body>
@@ -145,7 +151,7 @@
     
     <div class="container">
        
-        <p>
+        <p class="highlighted-text">
             Mali is one of the largest countries in West Africa. Many people from countries like Ivory Coast, Senegal, Guinea, and Burkina Faso have origins that trace back to Mali. Assimi Goïta is the current president of Mali and has made significant contributions to the country. For instance, as mentioned before, our official language is now Bambara. Under Assimi Goïta’s leadership, Mali has removed French troops from the country, which marks a significant milestone for us. Some of our national dishes include “Tigadegi Nan,” “Tô,” and “Zame.” My personal favorite is my mother's Zame!
             
         </p>
@@ -171,7 +177,7 @@
    </footer>
     
     <script>
-        // JavaScript to add 'loaded' class to body after the page is fully loaded
+       
         window.addEventListener('load', function() {
             document.body.classList.add('loaded');
             document.querySelector('header').style.opacity = 1;

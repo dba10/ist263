@@ -91,15 +91,15 @@
 
 
         body {
-            opacity: 0; /* Initially set body opacity to 0 */
-            transition: opacity 1s ease-in-out; /* Add transition to opacity */
+            opacity: 0;
+            transition: opacity 1s ease-in-out; 
         }
 
         body.loaded {
-            opacity: 1; /* Set opacity to 1 when the body has the 'loaded' class */
+            opacity: 1; 
         }
 
-        /* Add fade-in transitions to header, text, and images */
+        
         header, .text-section, .image-container img {
             opacity: 1;
             transition: opacity 1s ease-in-out;
@@ -140,7 +140,7 @@
     </header>
 
     
-    <div class="container">
+    <div class="container"></div>
         <div class="text-and-image-container">
             <div class="text-section">
             <h1>A little bit more about Djelika & the inspiration behind this website!</h1>
@@ -182,10 +182,10 @@
      
 
               
-    <!-- More sections as needed -->
+   
 
     <script>
-        // JavaScript to add 'loaded' class to body after the page is fully loaded
+
         window.addEventListener('load', function() {
             document.body.classList.add('loaded');
         });
