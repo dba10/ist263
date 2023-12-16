@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinea Bissau</title>
+    <style>
+        body {
+            background-color: #000000;
+            margin: 0;
+            color: #dfcbcb;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #116525;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        nav a {
+            margin: 0 15px; /* Add margin to create spacing between navigation links */
+            color: rgb(255, 251, 251);
+            text-decoration: none;
+        }
+
+        .content-container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        .image-item {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            opacity: 1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+        }
+
+        body {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        body.loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Home.html">African Gems</a>
+        <a href="mali.html">Mali</a>
+        <a href="Guineabissau.html">Guinea Bissau</a>
+    </nav>
+    
+    <header>
+        <h1>Guinea Bissau </h1>
+    </header>
+
+    <div class="content-container">
+        <p>
+            Guinea-Bissau is a small yet beautiful  West African country located on the Atlantic coast. 2023 was my first time ever visiting Guinea-Bissau, and honestly, I think it's the most beautiful country I've ever been to. The beaches were stunning, the food was top-tier, and the people were welcoming. This page will be highlighting the beauty of the country. Below are some pictures that I took in the country.
+        </p>
+        
+        <div class="image-item">
+            <div class="image-container">
+                <img src="../images/hotelGuinea-Bissau.jpg" alt="Beautiful resort in Guinea Bissau" width="300" height="400">
+                <div class="Resort">This is a beautiful resort in Guinea Bissau.</div>
+                <img src="../images/guineabko.jpg" alt=" Beautiful sunset in Guinea Bissau." width="300" height="400">
+                <div class="Sunset">This is a picture I took at sunset. You can see my niece in the picture.</div>
+                <img src="../images/Image.png" alt="Beautiful beach in Guinea Bissau" width="300" height="400">
+                <div class="Beach">This is a beach in Guinea-Bissau.</div>
+            </div>
+        </div>
+
+        <p>
+            Guinea-Bissau has a rich cultural heritage and diverse landscapes. Whether you are exploring the historic sites in the capital city of Bissau or relaxing on the pristine beaches, the country offers a unique experience for travelers.
+        </p>
+
+        <div class="image-item">
+            <div class="image-container">
+                <img src="../images/flight.jpg" alt="Resort in Guinea Bissau," width="300" height="400">
+                <div class="Resort">This is a picture i took when i was on the plane to Guinea Bissau.</div>
+                <img src="../images/atvguineab.jpg" alt="ATV in Guinea Bissau" width="300" height="400">
+                <div class="Sunset">I had so much fun this day on the ATV.</div>
+                
+            </div>
+        </div>
+        
+        <p>
+            My favorite food i had in Guinea-Bissau was the beans and rice. This was so good! It tasted very similar to Domicnan rice and peas. 
+        </p>
+
+        <div class="image-item">
+            <div class="image-container">
+                <img src="../images/Beans.png" alt="Rice and beans" width="300" height="400">
+                <div class="Sunset">This was the rice and beans. Looks delicious right?</div>
+                <img src="../images/placali.png" alt="Placadi" width="300" height="400">
+                <div class="Resort"> This meal is called "Placadi". It has okra, in it.</div>
+                <img src="../images/flower.png" alt="Tacos in Guinea Bissau" width="300" height="400">
+                <div class="Sunset">I had these tacos at a beautiful restaurant.</div>
+    
+               
+                
+            </div>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        "If I have ever seen magic, it has been in Africa." ~ John Hemingway.
+   </footer>
+
+    <script>
+        // JavaScript to add 'loaded' class to body after the page is fully loaded
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            document.querySelector('header').style.opacity = 1;
+            document.querySelector('p').style.opacity = 1;
+        });
+    </script>
+</body>
+</html>

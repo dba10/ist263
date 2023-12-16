@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f02121;
+            margin: 0;
+            color: #dfcbcb;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #116525;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .banner {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+            font-size: 20px;
+            font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image-item {
+            text-align: center;
+        }
+
+        img {
+            display: inline-block;
+            margin: 0 10px;
+            max-width: 50%;
+            height: auto;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        nav a {
+            color: rgb(255, 251, 251);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        body {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        body.loaded {
+            opacity: 1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            opacity: 1;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        /* Add styles for the container */
+        .container {
+            text-align: left;
+            margin: 20px;
+        }
+
+        /* Add styles for the paragraph inside the container */
+        .container p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #ffffff;
+            margin-right: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Home.html">African Gems</a>
+        <a href="mali.html">Mali</a>
+        <a href="Guineabissau.html">Guinea Bissau</a>
+    </nav>
+    
+    <header>
+        <h1>Learn More About Mali!</h1>
+    </header>
+
+    <div class="banner">
+        <p>
+            <strong>Before you continue reading about Mali, here are some fun facts about Mali:</strong>
+        </p>
+        <ul>
+            <li>~Mali was home to the richest man who has ever lived.</li>
+            <li>~As of August 2023, Mali has officially removed French as their official language!</li>
+            <li>~Bambara is now the official language spoken in Mali!</li>
+            <li>~Traditional tea & peanuts are an all-time favorite snack for Malians.</li>
+            <li>~The drum is a traditional instrument for Malians.</li>
+        </ul>
+    </div>
+
+    <div class="image-container">
+        <div class="image-item">
+            <img src="../images/mali.jpeg" alt="Me at Le Campement, in Bamako" width="800" height="1200">
+            <div class="Image description">This is me at Le Campement, in Bamako.</div>
+            
+        </div>
+        <div class="image-item">
+            <img src="../images//Mali.tress.jpg" alt="Me in Bamamko" width="750" height="100">
+            <div class="this ">This is a very beautful picture of me at the Bamako hotel.</div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+       
+        <p>
+            Mali is one of the largest countries in West Africa. Many people from countries like Ivory Coast, Senegal, Guinea, and Burkina Faso have origins that trace back to Mali. Assimi Goïta is the current president of Mali and has made significant contributions to the country. For instance, as mentioned before, our official language is now Bambara. Under Assimi Goïta’s leadership, Mali has removed French troops from the country, which marks a significant milestone for us. Some of our national dishes include “Tigadegi Nan,” “Tô,” and “Zame.” My personal favorite is my mother's Zame!
+            
+        </p>
+        <div class="image-item">
+            <img src="../images/malianfood.jpg" alt="Mali" width="800" height="1200">
+            <div class="Differenr types of Malian Dishes">Malian Dishes.</div>
+        </div>
+
+        <p> 
+            Traditional music in Mali has a rich history and is ingrained in the customs of many different ethnic groups. Instruments like the ngoni (a string instrument), balafon (a xylophone), and the kora (a harp-lute) contribute to the distinctive tone of Malian music. My favorite Malian artists are Oumou Sangare and Sidiki Diabate. These two artists are well-known in West Africa.
+        </p>
+        <div class="image-item">
+            <div class="image-container">
+                <img src="../images/Oumousan (1).jpg" alt="This is Oumou Sang." width="500" height="1200">
+                <div class="Oumou Sanagare">Oumou Sanagare.</div>
+                <img src="../images/sidki (3).jpg"  width="500" height="500">
+                <div class="This is Sidiki Dibate">Sidiki Diabate.</div>
+        </div>
+    </div>
+    
+    <footer>
+        "If I have ever seen magic, it has been in Africa." ~ John Hemingway.
+   </footer>
+    
+    <script>
+        // JavaScript to add 'loaded' class to body after the page is fully loaded
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            document.querySelector('header').style.opacity = 1;
+            document.querySelector('.banner').style.opacity = 1;
+            document.querySelectorAll('.image-item img, .image-item div').forEach(item => item.style.opacity = 1);
+            document.querySelector('p').style.opacity = 1;
+        });
+    </script>
+</body>
+</html>

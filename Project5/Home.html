@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Gems</title>
+    <style>
+
+        body {
+            background-color: #000000;
+            margin: 0;
+            color: rgb(224, 224, 224);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .text-and-image-container {
+            flex: 2; 
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .text-section,
+        .image-section {
+            flex: 1;
+            padding: 20px;
+           
+        }
+
+
+        header {
+            background-color: #000000;
+            padding: 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 38px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            color: #ffcc00;
+            font-size: 60px;
+            padding: 25px;
+        }
+
+
+        header p {
+            color: #179017;
+            font-size: 20px;
+        }
+
+        nav  {
+            display: flex;
+            justify-content: center;
+            background-color: #ff1b1b;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+
+        }
+
+        nav a {
+            color: rgb(255, 251, 251);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+
+        body {
+            opacity: 0; /* Initially set body opacity to 0 */
+            transition: opacity 1s ease-in-out; /* Add transition to opacity */
+        }
+
+        body.loaded {
+            opacity: 1; /* Set opacity to 1 when the body has the 'loaded' class */
+        }
+
+        /* Add fade-in transitions to header, text, and images */
+        header, .text-section, .image-container img {
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Home.html">African Gems</a>
+        <a href="mali.html">Mali</a>
+        <a href="Guineabissau.html">Guinea Bissau</a>
+    </nav>
+
+    <header>
+        <div>
+            <h1> 
+                <b>African Gems</b>
+            </h1>
+                        
+        <div class="image-section">
+            <div class="image-container">
+              <img src="../images/maliflag.png" alt="Mali" width="400" height="500">
+              <img src="../images//guinea.png" alt="Ghana" width="400" height="500">
+       </div>
+            </h1>
+
+        </div>
+       
+    </header>
+
+    
+    <div class="container">
+        <div class="text-and-image-container">
+            <div class="text-section">
+            <h1>A little bit more about Djelika & the inspiration behind this website!</h1>
+            
+      
+       
+   
+            <p>As an individual with roots in various parts of West Africa, I feel it's my responsibility to showcase my countries in a positive light and educate those unfamiliar with them. My connection with these nations began at an early age—I first visited Bamako, Mali, at three, followed by Dakar, Senegal, where my grandfather lived. At six, I visited the Ivory Coast for the first time, and this year marked my initial visit to Guinea Bissau.
+
+        </p>
+     
+
+        <p>When I mention my origins, I often notice a puzzled expression, indicating people are unfamiliar with these countries. It wasn't until my adolescent years that I began to wonder why many lacked knowledge about Africa, particularly my home countries.
+        </p>
+    
+        
+    
+        <p>A simple Google search for 'Mali' usually yields headlines related to poverty or conflict, overshadowing positive developments. This raises the question of why Western media neglects highlighting the progress in these countries. Visiting all three yearly, I can attest that they are making significant strides beyond common portrayals.
+    
+        </p>
+    
+        <p>Senegal and Ivory Coast, for example, lead in technological advancements, showcasing progress and potential with reliable access to essential services. Africa isn't solely defined by poverty; it's a continent of diverse strengths and opportunities.
+    
+        </p>
+        <div class="image-section">
+            <div class="image-container">
+              <img src="../images/rek.png" alt="sengal" width="400" height="500">
+              <img src="../images/cityivory.png" alt="senegal" width="400" height="500">
+              
+    
+        <p>This website aims to shed a positive light on Mali and Guinea Bissau, sharing beautiful pictures from my visits. I hope you enjoy!
+
+        </p>
+
+        <div class="image-section">
+            <div class="image-container">
+            
+              <img src="../images/malihotels.jpng.jpeg" alt="hotels" width="400" height="500">
+     
+
+              
+    <!-- More sections as needed -->
+
+    <script>
+        // JavaScript to add 'loaded' class to body after the page is fully loaded
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+
+<footer>
+     "If I have ever seen magic, it has been in Africa." ~ John Hemingway.
+</footer>
+
+</body>
+</html>

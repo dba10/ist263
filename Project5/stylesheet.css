@@ -1,0 +1,11 @@
+body {background-color:#040404;
+    color: hsl(0, 0%, 100%);}
+
+a {color:#0000ff;}
+a:hover {color:#ffffff;}
+a {color:#3700ff;}
+a:hover {color:#ffffff;}
+mg {
+    display: block;
+    margin: auto;
+  }
